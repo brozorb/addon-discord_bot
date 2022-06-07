@@ -29,12 +29,6 @@ const d_client = new Client({
 d_client.on("ready", () => {
   console.info(`BOT logged in as ${d_client.user.username}!`);
   d_client.user.setPresence({
-    activities: [
-      {
-        name: "mit deiner Mom",
-        type: "PLAYING",
-      },
-    ],
     status: "online",
   });
 });
